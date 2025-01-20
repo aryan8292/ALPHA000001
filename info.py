@@ -18,11 +18,11 @@ API_HASH = environ.get('API_HASH', 'ae5a5f660ffdf3e08997d493c32932f5')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6068679720:AAHyH2Ej21nO0rAMx6YnIaWVtQs2QVGa80A")
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'modijiurl.com'))
-STREAM_API = (environ.get('STREAM_API', '8d684270fc9cd373ff00af17ef218fe0f70ad44a'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'instantearn.in'))
+STREAM_API = (environ.get('STREAM_API', 'dc5e9a2e8582dda079e593d7763d0180a8608b09'))
 
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002122060084'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001517345433'))
 
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/a36b4b70f61796cfb8d5d.jpg'))
 CODE = (environ.get('CODE', 'https://graph.org/file/f96562518138b9132abf8.jpg'))
@@ -38,7 +38,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5
 
 # Admins, Channels & Users
 USERNAME = environ.get("USERNAME", "https://t.me/PANDITXG")
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1735392935 ').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5079629749').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002021249374').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -60,12 +60,12 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 
 #Shortner Variables 
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Ary_botz/10')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '8d684270fc9cd373ff00af17ef218fe0f70ad44a')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'instantearn.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'dc5e9a2e8582dda079e593d7763d0180a8608b09')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 
 #others 
 
